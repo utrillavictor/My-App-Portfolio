@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        style="@android:style/TextAppearance.Large"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/my_title"
+        android:textColor="@android:color/holo_blue_light"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        style="@android:style/TextAppearance.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginRight="72dp"
+        android:layout_weight="1"
+        android:background="#EF5350"
+        android:onClick="displayApp"
+        android:text="@string/button"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@android:style/TextAppearance.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginRight="72dp"
+        android:layout_weight="1"
+        android:background="#EF5350"
+        android:onClick="displayApp"
+        android:text="@string/button2"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@android:style/TextAppearance.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginRight="72dp"
+        android:layout_weight="1"
+        android:background="#EF5350"
+        android:onClick="displayApp"
+        android:text="@string/button3"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@android:style/TextAppearance.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginRight="72dp"
+        android:layout_weight="1"
+        android:background="#EF5350"
+        android:onClick="displayApp"
+        android:text="@string/button4"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/button5"
+        style="@android:style/TextAppearance.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginRight="72dp"
+        android:layout_weight="1"
+        android:background="#EF5350"
+        android:onClick="displayApp"
+        android:text="@string/button5"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/button6"
+        style="@android:style/TextAppearance.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginRight="72dp"
+        android:layout_weight="1"
+        android:background="#03A9F4"
+        android:onClick="displayApp"
+        android:text="@string/button6"
+        android:textAllCaps="true"
+        android:textColor="@android:color/white" />
+</LinearLayout>
